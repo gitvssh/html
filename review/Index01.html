@@ -3,16 +3,48 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>단락요소</title>
+		<style type="text/css">
+			p{
+			color : orange;
+			font-size : 20px;
+			border-style: solid;
+			border-color: black;
+			border-width: 1px;
+			}
+			em{
+			color : blue;
+			font-size : 20px;
+			border-style: solid;
+			border-color: black;
+			border-width: 1px;
+			}
+			div{
+			background-color: green;
+			width : 700px;
+			}
+			span{
+			background-color: pink;
+			width : 700px;
+			}
+		</style>
 	</head>
+	
 	<body>
 		<h1>단락 요소</h1>
-		<hr/>
-		<h2>단락 요소의 특징</h2>
-		<hr/>
-		<p>단락을 정의하는 p요소는 </br>블록 요소이므로 </p><p>줄 바꿈이 일어납니다.</p>
-		<p>p 요소는 텍스트와 인라인 요소를 포함할 수 있지만 </br>같은 블록 요소는
-		</p> 
-		<p>포함할 수 없습니다.
+		<hr>
+		<p>단락 요소의 특징</p>
+			단락을 정의하는 <span><strong>p요소</strong>는 <em>블록 요소</em>이므로 줄 바꿈이 일어납니다.</span>
+		<img src="C:\Users\Administrator\Documents\pencils.jpg" width="800">
+			
+			<div>
+			<p>
+			<mark>p 요소는 텍스트와 인라인 요소를 <strong>포함할 수 있지만</strong> 같은 블록 요소는 포함할 수 없습니다.</mark>
 		</p>
+		<p> 정기세일 : <del>8.30~9.15</del></p>
+		<p> 정기세일 변경: <ins>8.30~9.15</ins></p>
+			</div>
+		<h2>윗첨자와 아래첨자</h2>
+		<p>m<sup>2</sup> co<sub>2</sub></p>
+		
 	</body>
 </html>
