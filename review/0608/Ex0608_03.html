@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>Insert title here</title>
+	</head>
+	
+	<body>
+		<form action="https://naver.com" method="get">
+			<fieldset>
+				<legend>회원가입</legend>
+				<p><label for="id">아이디: </label><input type="text" name="id" id="id"></p>
+				<p><label for="pass">비밀번호: </label><input type="password" name="password" id="pass"></p>
+				<p><label for="email">이메일: </label><input type="email" name="email" id="email"></p>
+				<p><label for="url">홈페이지: </label><input type="url" name="url" id="url"></p>
+				<p><label for="date">날짜입력: </label><input type="date" name="date" id="date"></p>
+				<p><label for="address">주소선택: </label>
+				<select>
+				<optgroup label="서울지역">
+					<option value="ys">용산구</option>
+					<option value="sd">서대문구</option>
+					<option value="jg">종로구</option>
+					</optgroup>
+				<optgroup label="부산지역">
+					<option value="ys">동구</option>
+					<option value="sd">서구</option>
+					<option value="jg">남구</option>
+					</optgroup>
+				</select>
+				
+				<p><label for="mail">메일수신여부: </label>
+				<input type="radio" value="y" name="recieve" id="mail"/>예
+				<input type="radio" value="n" name="recieve"/>아니오
+				</p>
+				<p><label for="part">관심분야: </label>
+				<input type="checkbox" value="html" name="chk1" id="part"/>html
+				<input type="checkbox" value="css" name="chk2"/>css
+				<input type="checkbox" value="js" name="chk3"/>js
+				<input type="checkbox" value="jquery" name="chk4">jquery
+				</p>
+				<textarea rows="20" cols="30"></textarea>
+				
+				<input type="submit" value="보내기"/>
+				<input type="reset" value="취소"/>
+				<input type="button" value="확인"/>
+				<input type="image" src="images/search.png" alt="검색" value="확인">
+				<input type="file"alt="검색" value="확인">
+				<input type="hidden" name="ip" value="211.222.15.007">
+				
+			</fieldset>
+		</form>	
+	</body>
+</html>
