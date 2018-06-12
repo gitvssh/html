@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="stylesheet" type="text/css" href="css/style4.css">
+	</head>
+	<body>
+	<div id="wrap">
+		<h3>필수입력 정보</h3>
+		<table>
+			<tr class="top">
+				<th>아이디(이메일)<sup>*</sup></th>
+				<td>
+				<input type="text" required="required"> @ <input type="text" required="required"> 
+					<select>
+						<option value=>직접입력</option>
+						<option value="daum.net">daum.net</option>
+						<option value="naver.com">naver.com</option>
+						<option value="gmail.com">gmail.com</option>
+						<option value="nate.com">nate.com</option>
+						<option value="hanmail.net">hanmail.net</option>
+					</select>
+				<input type="button" class="btn btn_solid" id="btn01" value="중복확인">				
+				</td>
+			</tr>
+			<tr>
+				<th>비밀번호<sup>*</sup></th>
+				<td><input type="password" maxlength="16" required="required"></td>
+			</tr>
+			<tr>
+				<th>비밀번호 확인<sup>*</sup></th>
+				<td><input type="text" required="required"></td>
+			</tr>
+			<tr>
+				<th>이름<sup>*</sup></th>
+				<td></td>
+			</tr>
+			<tr>
+				<th>본인인증 확인</th>
+				<td></td>
+			</tr>
+			<tr>
+				<th>생년월일</th>
+				<td></td>
+			</tr>
+			<tr class="bottom">
+				<th>성별</th>
+				<td>
+					
+				</td>
+			</tr>
+			</table>
+		<h3>추천인 등록(선택)</h3>
+			<table>
+			<tr>
+				<th>추천인 코드 입력</th>
+				<td><input type="text">
+				<input type="button" id="btn02" class="btn btn_solid" value="확인">
+				 추천인 코드를 입력하면 5천원 증정!
+				</td>
+			</tr>
+			</table>
+		<h3>아이정보 입력(선택)</h3>
+			<table>
+			<tr class="top">
+				<th>이름</th>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<th>성별</th>
+				<td>
+					<select>
+						<option value="select">선택</option>
+						<option value="girl">여아</option>
+						<option value="boy">남아</option>
+					</select>
+				</td>
+			</tr>
+			<tr class="bottom">
+				<th>생년월일</th>
+				<td>
+					<select>
+						<option value>선택</option>
+						<option value="2018">2018</option>
+						<option value="2017">2017</option>
+						<option value="2016">2016</option>
+						<option value="2015">2015</option>
+						<option value="2014">2014</option>
+						<option value="2013">2013</option>
+						<option value="2012">2012</option>
+						<option value="2011">2011</option>
+						<option value="2010">2010</option>
+						<option value="2009">2009</option>
+						<option value="2008">2008</option>
+						<option value="2007">2007</option>
+						<option value="2006">2006</option>
+						<option value="2005">2005</option>
+						<option value="2004">2004</option>
+						<option value="2003">2003</option>
+						<option value="2002">2002</option>
+						<option value="2001">2001</option>
+					</select> 년 
+					<select>
+						<option value>선택</option>
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+						<option value="04">04</option>
+						<option value="05">05</option>
+						<option value="06">06</option>
+						<option value="07">07</option>
+						<option value="08">08</option>
+						<option value="09">09</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+					</select> 월 
+					<select>
+						<option value>선택</option>
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+						<option value="04">04</option>
+						<option value="05">05</option>
+						<option value="06">06</option>
+						<option value="07">07</option>
+						<option value="08">08</option>
+						<option value="09">09</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+					</select> 일 
+				</td>
+			</tr>
+			</table>
+			<div id="bot01">
+				<div id="bot01_1">
+				<input type="checkbox"> SMS를 통한 상품 및 이벤트 정보 수신 동의 [선택]<br>
+				<input type="checkbox"> 이메일을 통한 상품 및 이벤트 정보 수신 동의 [선택]
+				</div>
+			</div>
+			<div id="bot02">
+				<p>웅진책방 회원 이용약관 및 개인정보 수집/이용 동의 내용을 확인하였으며, 위 내용에 동의합니다.<br/>
+					선택정보 입력사항은 동의를 하지 않은 경우 일부 서비스 이용에 제한이 있을 수 있습니다.<br/>
+					단, 이 경우에도 웅진책방 기본 서비스 이용은 가능합니다.</p>			
+			</div>
+			<div>
+				<input type="button"  id="agree" class="btn btn_solid" value="동의하고 회원가입">
+			</div>
+			</div>
+	</body>
+</html>
