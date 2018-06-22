@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+*{margin:0; padding:0;}
+li{list-style-type:none;}
+body{font:20px "Arial", Gulim;margin:20px;}
+h1,ul{padding:10px;}
+
+#galleryWrap{
+	width :100%;
+	height :1024px;
+	background-image: url("../img/bg_slide1.jpg");
+}
+h1{
+	text-align: center;	
+}
+#centert01{
+	width :400px;
+}
+#but1{
+	top:50%;
+	left:10%;
+	position:absolute;
+	width : 5z`0px;
+	height : 50px;
+}
+#but2{
+	top:50%;
+	right:10%;
+	position:absolute;
+	width : 50px;
+	height : 50px;
+}
+#center{
+	transition: opacity 1s ease-in-out;
+}
+#center.transparent{
+	transition: opacity 0;
+}
+#centerimg{
+	top:25%;
+	left:20%;
+	position:absolute;
+	
+}
+#button{
+	width :100%;
+	height:100%;
+}
