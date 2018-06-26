@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="js/prefixfree.min.js"></script>
+	</head>
+	<body>
+		<div>
+			<h1>선택자</h1>
+			<h2 id="title">원거리 선택자</h2>
+			<ul>
+				<li>회사소개</li>
+				<li>제품정보</li>
+				<li>통합경영</li>
+				<li>인재채용</li>
+				<li>미디어센터</li>
+			</ul>
+			<h2>회사소개</h2>
+			<ul >
+				<li><img id="img1" src="img/1.jpg"></li>
+				<li><img id="img2" src="img/2.jpg"></li>
+				<li><img id="img3" src="img/3.jpg"></li>
+				<li><img id="img4" src="img/4.jpg"></li>
+				<li><img id="img5" src="img/5.jpg"></li>
+				<li><img id="img6" src="img/6.jpg"></li>
+			</ul>
+			<p></p>
+			<p></p>
+				<button onmouseover="chk_ul()">체크</button>
+				<button onmouseover="img_chk(1,1)" onmouseout="img_chk(1,0)">1번 이미지</button>
+				<button onmouseover="img_chk(2,1)" onmouseout="img_chk(2,0)">2번 이미지</button>
+				<button onmouseover="img_chk(3,1)" onmouseout="img_chk(3,0)">3번 이미지</button>
+				<button onmouseover="img_chk(4,1)" onmouseout="img_chk(4,0)">4번 이미지</button>
+				<button onmouseover="img_chk(5,1)" onmouseout="img_chk(5,0)">5번 이미지</button>
+				<button onmouseover="img_chk(6,1)" onmouseout="img_chk(6,0)">6번 이미지</button>
+		</div>
+	</body>
+</html>
