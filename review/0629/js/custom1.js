@@ -1,0 +1,52 @@
+$(function(){
+	$("ul>li:eq(0)").mouseover(function(){
+		$("img").attr({"src":"img/1.jpg"});
+		$("img").attr({"src":"img/1.jpg","transform":"scale(1.5)"});
+	});
+	$("ul>li:eq(0)").mouseout(function(){
+		$("img").attr({"src":"img/1.jpg","transform":"scale(1)"});
+	});
+	
+	$("ul>li:eq(1)").mouseover(function(){
+		$("img").attr({"src":"img/1.jpg","opacity":"0"});
+		$("img").attr({"src":"img/2.jpg","opacity":"1"});
+	});
+	$("ul>li:eq(1)").mouseout(function(){
+		$("ul>li:eq(1)").style("height","20px")
+		$("img").attr({"src":"img/1.jpg","opacity":"1"});
+		$("img").attr({"src":"img/2.jpg","opacity":"0"});
+	});
+	$("ul>li:eq(2)").mouseover(function(){
+		$("img").attr("src","img/3.jpg");
+	});
+	$("ul>li:eq(2)").mouseout(function(){
+		$("img").attr("src","img/1.jpg");
+	});
+	$("ul>li:eq(3)").mouseover(function(){
+		$("img").attr("src","img/4.jpg");
+	});
+	$("ul>li:eq(3)").mouseout(function(){
+		$("img").attr("src","img/1.jpg");
+	});
+	$("ul>li:eq(4)").mouseover(function(){
+		$("img").attr("src","img/5.jpg");
+	});
+	$("ul>li:eq(4)").mouseout(function(){
+		$("img").attr("src","img/1.jpg");
+	});
+	$("ul>li:eq(5)").mouseover(function(){
+		$("img").attr("src","img/6.jpg");
+	});
+	$("ul>li:eq(5)").mouseout(function(){
+		$("img").attr("src","img/1.jpg");
+	});
+	$("ul>li:eq(6)").mouseover(function(){
+		$("img").attr("src","img/7.jpg");
+	});
+	$("ul>li:eq(6)").mouseout(function(){
+		$("img").attr("src","img/1.jpg");
+	});
+	
+
+
+});
