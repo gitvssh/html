@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+ol,ul{list-style-type:none;}
+a{outline:0; text-decoration: none;}
+img{border:0;}
+*{margin:0; padding:0;}
+
+body{
+	height:2000px;
+}
+#header{
+	width:100%;
+	height:75px;
+	color : black;
+		background:#e4e4e4;
+}
+.nav{
+	width : 1210px;
+	margin : 0 auto;
+	text-align: center;
+}
+.nav li{
+	padding-top : 25px;
+	height : 75px;
+	width : 200px;
+	float:left;
+	color : black;
+	background:#e4e4e4;
+	font-size: 17px;
+	text-shadow: 1px 1px 5px;	
+	position: relative;
+	transition : background 1s, color 1s;
+}
+.sub{
+	top : 75px;
+	border-left : 1px solid #383838;
+	border-right : 1px solid #383838;
+	border-top : 1px solid #383838;
+	position: absolute;
+	box-sizing: border-box;
+	display: none;
+	transition : display 1s;
+}
+.sub li{
+	color : black;
+	background:#e4e4e4;
+	border-bottom : 1px solid #383838;
+}
+#test1{
+	width: 300px;
+	height : 300px;
+	background : black;
+}
+#icon{
+	width : 75px;
+	height : 75px;
+	margin-left : 30px;
+}
+#icon2{
+	height : 75px;
+	left : 50%;
+}
+@media screen and (min-width:1000px){
+	#header{
+	display:block;
+	}
+	#icon {display : none;}
+	#icon2 {display :none;}
+	
+}
+@media screen and (max-width:999px){
+	#header{
+	display:none;
+	}
+	#icon {display : block;}
+	#icon2 {display : block;}
+}
